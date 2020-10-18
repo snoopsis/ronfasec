@@ -9,8 +9,8 @@ $mensagem = $_POST['mensagem'];
 require 'class/SMTPMailer.php';
 $mail = new SMTPMailer();
 
-$mail->addTo('tarantula.lan@gmail.com', 'jaime1980@outlook.pt');
-$mail->From('ronfasec@lavandaria.com');
+$mail->addTo('__EMAIL__', '__EMAIL__');
+$mail->From('__EMAIL__');
 
 $mail->Subject('Nova Mensagem do Website Ronfasec');
 $mail->Body(
