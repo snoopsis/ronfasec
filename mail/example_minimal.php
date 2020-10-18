@@ -3,8 +3,8 @@
 require 'class/SMTPMailer.php';
 $mail = new SMTPMailer();
 
-$mail->addTo('tarantula.lan@gmail.com');
-$mail->From('ronfasec@website.xyz');
+$mail->addTo('__EMAIL__');
+$mail->From('__EMAIL__');
 
 $mail->Subject('Nova Mensagem do Website Ronfasec');
 $mail->Body(
